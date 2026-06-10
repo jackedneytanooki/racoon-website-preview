@@ -158,13 +158,6 @@ main, .nav, .foot{ position:relative; z-index:2; }
 .hero__lede{ max-width:48ch; margin:34px 0 0; font-size:clamp(1.05rem,1.6vw,1.32rem);
   color:var(--paper-dim); line-height:1.55; font-weight:400; }
 .hero__actions{ display:flex; flex-wrap:wrap; gap:14px; margin-top:38px; }
-.hero__meta{ display:flex; flex-wrap:wrap; gap:clamp(24px,5vw,64px); list-style:none;
-  margin-top:56px; padding-top:28px; border-top:1px solid var(--line); }
-.hero__meta li{ font-family:var(--f-mono); font-size:.76rem; letter-spacing:.04em;
-  text-transform:uppercase; color:var(--muted); }
-.hero__meta b{ display:block; font-family:var(--f-disp); font-weight:400;
-  font-size:clamp(1.7rem,2.8vw,2.5rem); color:var(--paper);
-  letter-spacing:.01em; margin-bottom:4px; }
 
 .hero__scope{ display:flex; align-items:flex-end; gap:14px; margin-top:44px; }
 .scope__label{ font-family:var(--f-mono); font-size:.66rem; letter-spacing:.2em;
